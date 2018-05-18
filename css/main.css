@@ -1,0 +1,84 @@
+@charset "UTF-8";
+div, p , section, header, footer, p , h1, h2 , h3 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #fcfcfc ;
+	font: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+header {
+	background-color: #d43a3a;
+	height: 60px;
+	margin-top: -20px;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.hidden{
+	display: none;
+}
+
+.bottom {
+	clear: both;
+	background-color: #d43a3a;
+	height: 40px;
+}
+
+h3 {
+	color: #d43a3a;
+	padding-bottom: 20px;
+	font-size: 20px;
+	padding-top: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: lowercase;
+	}
+
+.mainContainer {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.aboutPhoto {
+	width: 400px;
+	float: left;
+	margin-left: 50px;
+}
+.aboutDesc {
+	width: 300px;
+	float: right;
+}
+
+.hobbiesList {
+	clear: both;
+	width: 250px;
+	float: left;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.hobbiesListmiddle {
+	width: 250px;
+    float: left;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.hobbiesListFinal {
+    width: 250px;
+    float: right;
+    padding: 20px;
+    overflow: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+img {
+	margin: 0 auto;
+	display: block;
+}
